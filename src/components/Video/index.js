@@ -8,7 +8,7 @@ function Video() {
         <Container>
             <TextContainer>
                 <TextLargeBold> HAPPENDED'S ISSUE</TextLargeBold>
-                <TextSmallRegular>How to create mobile-optimized videos in minutes. Not a designer,<br />
+                <TextSmallRegular>How to create mobile-optimized videos in minutes. Not a designer,
                     every team makes a lot of videos Can be trimmed. Take the first </TextSmallRegular>
                 <Button />
             </TextContainer>

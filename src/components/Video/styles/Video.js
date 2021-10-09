@@ -30,9 +30,13 @@ export const TextContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 20%;
     justify-content: center;
+    padding: 0 32%;
     @media screen and (max-width:1292px){
+        padding: 0 15%;
+
+    }
+    @media screen and (max-width:692px){
         padding: 0 5%;
 
     }

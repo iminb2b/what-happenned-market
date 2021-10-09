@@ -27,9 +27,17 @@ export const TextContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0 32%;
+    @media screen and (max-width:1292px){
+        padding: 0 15%;
+
+    }
+    @media screen and (max-width:692px){
+        padding: 0 5%;
+
+    }
     @media screen and (max-width: 992px){
         height: 270px;
-        padding: 0 5%;
     }
 `;
 

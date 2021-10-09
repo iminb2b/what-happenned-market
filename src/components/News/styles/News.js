@@ -21,9 +21,16 @@ export const TextContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    @media screen and (max-width: 992px){
-        padding: 0 5%;
+    padding: 0 32%;
+    @media screen and (max-width:1292px){
+        padding: 0 15%;
+
     }
+    @media screen and (max-width:692px){
+        padding: 0 5%;
+
+    }
+    
 `;
 
 export const BrandsBox = styled.div`

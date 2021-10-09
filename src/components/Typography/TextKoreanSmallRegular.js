@@ -8,7 +8,7 @@ function TextKoreanSmallRegular({ children }) {
     )
 }
 const Container = styled.div`
-    ${pros => pros.theme.textSmallRegular};
+    ${pros => pros.theme.textExtraSmallRegular};
     ${pros => pros.theme.fonts.korean};
 
     @media screen and (max-width: 1292px){
