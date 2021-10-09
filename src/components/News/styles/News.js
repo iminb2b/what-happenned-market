@@ -5,6 +5,9 @@ export const Container = styled.div`
     max-width: 1920px;
     padding-bottom: 50px;
     background-image: url("images/news.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
     @media screen and (max-width:1292px){
         height: auto;
     }
