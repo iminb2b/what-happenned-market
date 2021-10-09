@@ -1,5 +1,4 @@
-import TextSmallBold from '../../Typography/TextSmallBold'
-import { Button, Container, Id, Image, Title, GO } from './styles/SingleProduct'
+import { Button, Container, Id, Image, Title, GO, Text } from './styles/SingleProduct'
 
 function SingleProduct({ product }) {
     return (
@@ -10,7 +9,7 @@ function SingleProduct({ product }) {
                 <Id>{product.id}</Id>
             </Title>
             <Button>
-                <TextSmallBold>How to create moblie-optimzed</TextSmallBold>
+                <Text>How to create moblie-optimzed</Text>
                 <GO>GO</GO>
             </Button>
 
