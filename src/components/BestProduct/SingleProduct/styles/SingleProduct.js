@@ -38,9 +38,8 @@ export const Id = styled.div`
 `;
 export const Text = styled.div`
     ${pros => pros.theme.textSmallBold}
-    @media screen and (mmax-width: 992px){
-    ${pros => pros.theme.textExtraSmallBold}
-
+    @media screen and (max-width: 992px){
+        ${pros => pros.theme.textExtraSmallBold}
     }
 `;
 export const GO = styled.div`
